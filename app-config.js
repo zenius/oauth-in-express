@@ -1,4 +1,4 @@
 module.exports = {
-  clientID: 'your client id',
-  clientSecret: 'your client secret',
+  clientID: 'add your client id here',
+  clientSecret: 'add your client secret here',
 };
