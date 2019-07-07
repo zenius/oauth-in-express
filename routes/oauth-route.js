@@ -16,7 +16,9 @@ oauthRouter.get('/oauth/redirect', (req, res) => {
     },
   }).then((response) => {
     const { access_token } = response.data;
-    res.redirect('/home-page.html');
+
+    // redirect to home page
+    res.redirect(`/home-page?access_token=${access_token}`);
   });
 });
 
